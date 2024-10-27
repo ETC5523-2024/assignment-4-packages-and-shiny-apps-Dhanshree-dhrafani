@@ -1,10 +1,5 @@
-home:
-  title: 'assignment4package'
-  description: 'This package explores classic literature data using a Shiny app.'
-  links:
-    - text: "Browse source code"
-      href: "https://github.com/ETC5523-2024/assignment-4-packages-and-shiny-apps-Dhanshree-dhrafani"
-    - text: "Full license"
-      href: "LICENSE"
-    - text: "Citing YourPackageName"
-      href: "LICENSE"
+pandoc: '3.2'
+pkgdown: 2.1.1
+pkgdown_sha: ~
+articles: {}
+last_built: 2024-10-27T09:33Z
