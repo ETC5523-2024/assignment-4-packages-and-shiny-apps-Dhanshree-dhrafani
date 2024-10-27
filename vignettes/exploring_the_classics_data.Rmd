@@ -1,6 +1,6 @@
 ---
 title: "Exploring the Classics Data"
-author: "Your Name"
+author: "Dhanshree Dhrafani"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
@@ -12,10 +12,25 @@ vignette: >
 # Introduction
 
 This vignette demonstrates how to use the functions in the `assignment4package` to explore the dataset of classic literature.
-We will explore the data and analyze the trends in Publication year, downloads, and genre
+We will explore the data and analyze the trends in Publication year, downloads, and genre.
 
-```r
+# Launching the Shiny App
+
+To explore the data interactively, you can launch the Shiny app with the following command:
+
 library(assignment4package)
 
-# Launch the Shiny app
+## Launch the Shiny app
 runShinyApp()
+
+# Exploring the Dataset
+
+The dataset used by the app is included in the package. You can load and explore it as follows:
+
+data(classics, package = "assignment4package")
+head(classics)
+
+
+# Interpreting the Results
+
+The app allows you to filter classic literature by various parameters, such as readability and downloads. The graphs generated in the app help visualize trends across genres and publication years.
