@@ -12,6 +12,9 @@ for famous literary works. The app allows users to filter books by
 genre, analyze trends in downloads, and examine readability across
 different works.
 
+For detailed information and a comprehensive guide to this package, visit [website](https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-Dhanshree-dhrafani/).
+
+
 ## Features
 
 - **Interactive Filtering**: Users can filter books by their readability
