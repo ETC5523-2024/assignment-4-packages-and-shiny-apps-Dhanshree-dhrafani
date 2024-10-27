@@ -1,0 +1,21 @@
+---
+title: "Exploring the Classics Data"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Exploring the Classics Data}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Introduction
+
+This vignette demonstrates how to use the functions in the `assignment4package` to explore the dataset of classic literature.
+We will explore the data and analyze the trends in Publication year, downloads, and genre
+
+```r
+library(assignment4package)
+
+# Launch the Shiny app
+runShinyApp()
