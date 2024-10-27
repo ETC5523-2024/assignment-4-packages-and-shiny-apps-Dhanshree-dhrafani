@@ -14,7 +14,7 @@ Imports:
     shiny,
     dplyr,
     tidyverse
-URL: https://github.com/ETC5523-2024/assignment-4-packages-and-shiny-apps-Dhanshree-dhrafani
+URL: https://github.com/ETC5523-2024/assignment-4-packages-and-shiny-apps-Dhanshree-dhrafani/
 Suggests: 
     knitr,
     rmarkdown
